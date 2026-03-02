@@ -1,0 +1,24 @@
+# rzeczywista niebieski / r oznacza  napięcie, natężenie, położenie
+# urojone pomarancz / i oznacza ze  prąd i napięcie są przesunięte w czasie
+# urojona mozna porzyrownac do Wyobraź sobie wskazówki zegara:
+# Wskazówka godzinowa → część rzeczywista
+# Wskazówka minutowa → część urojona
+# Część rzeczywista → cos
+# Część urojona → sin
+# wydaje mi sie ze to jest cos w sttlu walca podnoszonego elektrycznie do gory
+# ze walec lezy rosnie prad do wypychania walca czyli realistyczna to prad a urojona pozycja walca
+# jak walec jest na gurze urojona max rzeczywista jest juz 0 lub -1 czyli ze pradu nie ma albo 
+# przestaje dochodzic do urzadzenia 
+# i wtedy grawitacja/ brak zasilania podnosnika powoduje ze opada walec
+# walec na dole odrazu wlacza sie podnosnik i kolejna iteracja procesu
+
+#prostsza analogia
+Walec = sygnał
+Rzeczywista część = prąd / siła, która go podnosi
+Urojona część = pozycja walca
+Gdy walec jest u góry:
+urojona część max → fala osiąga maksimum w „położeniu”
+rzeczywista część ≈ 0 → brak siły (prądu) bo już nie trzeba go podnosić
+Gdy walec opada:
+rzeczywista część rośnie → znów trzeba wytworzyć prąd
+urojona część spada → pozycja walca się zmienia
